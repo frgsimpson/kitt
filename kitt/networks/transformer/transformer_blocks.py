@@ -7,8 +7,8 @@ Adapted from the pytorch implementation at https://github.com/PrincetonLIPS/AHGP
 
 import tensorflow as tf
 
-from keras.layers import Layer, LayerNormalization
-from keras.layers import Dense, Dropout, Permute
+from tensorflow.keras.layers import Layer, LayerNormalization
+from tensorflow.python.keras.layers import Dense, Dropout, Permute
 
 from kitt.prototype.attention.scaled_dot_product_attention import MultiheadAttentionMechanism
 

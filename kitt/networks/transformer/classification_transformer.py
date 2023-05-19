@@ -1,7 +1,7 @@
 import tensorflow as tf
-from keras.layers import Dense, Permute
-from keras import Sequential
-from keras.layers import Lambda
+from tensorflow.keras.layers import Dense, Permute
+from tensorflow.python.keras import Sequential
+from tensorflow.python.keras.layers import Lambda
 
 from kitt.networks.transformer.transformer_blocks import SelfAttentionBlock
 from kitt.networks.transformer.set_transformer_blocks import SetAttentionBlock, MLP

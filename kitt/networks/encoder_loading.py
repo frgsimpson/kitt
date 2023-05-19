@@ -1,8 +1,8 @@
 from typing import Tuple
 
 import tensorflow as tf
-from keras.layers import LSTM, TimeDistributed, Dense, Lambda
-from keras.models import Sequential
+from tensorflow.python.keras.layers import LSTM, TimeDistributed, Dense, Lambda
+from tensorflow.python.keras.models import Sequential
 
 
 def load_encoder(embedding_dim: int, use_cnn: bool, input_shape: Tuple[int, ...]):

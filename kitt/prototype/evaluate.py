@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 import numpy as np
 import tensorflow as tf
 from gpflow.models import GPR, SGPR
-from keras.preprocessing.text import Tokenizer
+from tensorflow.keras.preprocessing.text import Tokenizer
 
 from kitt.data.kitt_kernels import make_linear_noise_kernel
 from kitt.data.multitrain import multi_predict, evaluate_metrics

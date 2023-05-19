@@ -10,7 +10,7 @@ Taken from https://github.com/arrigonialberto86/set_transformer
 
 import tensorflow as tf
 from tensorflow import repeat
-from keras.layers import Layer, LayerNormalization
+from tensorflow.keras.layers import Layer, LayerNormalization
 from tensorflow.python.keras.layers import Dense
 
 from kitt.prototype.attention.scaled_dot_product_attention import MultiHeadAttention
