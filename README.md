@@ -15,9 +15,8 @@ Ensure poetry is installed and run:
 `poetry env use python3.7`
 `poetry install` (this may need to be run twice)
 
-from the top level directory of this repo (the directory containing `setup.py`).
+from the top level directory of this repo.
 
-To add dependencies add to the list under the `install_requires` argument to `setup` in `setup.py`.
 
 ## Running
 
